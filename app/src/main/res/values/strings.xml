@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TechFest Registration</string>
+    <string name="title_activity_event">Events</string>
+    <string name="tab_text_1">Tech</string>
+    <string name="tab_text_2">Non-Tech</string>
+</resources>
