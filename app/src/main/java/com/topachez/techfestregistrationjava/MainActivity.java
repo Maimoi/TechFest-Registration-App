@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Int = new Intent(getApplicationContext(), EventActivity.class);
+                Intent Int = new Intent(getApplicationContext(), list_of_colleges.class);
                 startActivity(Int);
             }
         });
