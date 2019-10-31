@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/rl1"
     android:layout_width="match_parent"
@@ -14,12 +14,45 @@
         android:layout_gravity="center"
         android:contentDescription="@string/dtu_logo"
         app:srcCompat="@drawable/dtu" />
-    <ListView
-        android:id="@+id/lv1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="50dp"
-        android:padding="10dp"
-        android:divider="@android:color/background_dark"
-        android:dividerHeight="1dp"/>
-</LinearLayout>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="220dp"
+        android:layout_height="84dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="5dp"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="220dp"
+        android:layout_height="84dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="5dp"
+        android:text="Register" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="136dp"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="243dp"
+        android:text="Blind coding" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="132dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="22dp"
+        android:text="Code In Less" />
+
+
+</RelativeLayout>
