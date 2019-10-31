@@ -16,23 +16,23 @@
         android:theme="?attr/actionBarTheme" />
 
     <EditText
+        android:padding="5dp"
+        android:inputType="text"
+        android:layout_marginTop="11dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
         android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="11dp"
-        android:layout_marginEnd="10dp"
-        android:background="@drawable/search_rect"
         android:hint="@string/search_clg"
-        android:inputType="text"
-        android:padding="5dp"
-        android:textColorHint="#595959" />
+        android:textColorHint="#595959"
+        android:background="@drawable/search_rect"/>
 
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="50dp"
         android:padding="10dp"
         android:divider="@android:color/background_dark"
         android:dividerHeight="1dp" />
