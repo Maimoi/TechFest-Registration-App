@@ -8,21 +8,29 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true">
-        <activity android:name=".mait"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".iitd"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".dtu"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".list_of_colleges"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".custom_details_DTU"
+            android:theme="@style/AppTheme.NoActionBar"
+        />
+        <activity
+            android:name=".mait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".iitd"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dtu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".list_of_colleges"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-
             </intent-filter>
         </activity>
 
