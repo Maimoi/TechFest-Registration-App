@@ -1,22 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".list_of_colleges">
-    <EditText
+    tools:context=".list_of_colleges"
+    android:background="@drawable/gradaf"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <EditText
+        android:padding="5dp"
+        android:inputType="text"
+        android:layout_marginTop="11dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
         android:id="@+id/editText"
-        />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/search_clg"
+        android:textColorHint="#595959"
+        android:background="@drawable/search_rect"/>
 
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-         android:layout_marginTop="50dp"
-
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
         android:divider="@android:color/background_dark"
         android:dividerHeight="1dp" />
 </RelativeLayout>
