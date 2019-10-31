@@ -9,8 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true">
         <activity android:name=".mait"/>
-        <activity android:name=".iitd" />
-        <activity android:name=".dtu" />
+        <activity android:name=".iitd"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".dtu"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".list_of_colleges"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".MainActivity"
