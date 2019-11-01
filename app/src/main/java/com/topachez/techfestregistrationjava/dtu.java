@@ -20,14 +20,19 @@ public class dtu extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String s="Blind Coding";
                 Intent inti=new Intent(getApplicationContext(),custom_details_DTU.class);
+                inti.putExtra("P",s);
                 startActivity(inti);
             }
         });
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String a="Code In Less";
+
                 Intent inti=new Intent(getApplicationContext(),custom_details_DTU.class);
+                inti.putExtra("P" ,a);
                 startActivity(inti);
             }
         });
