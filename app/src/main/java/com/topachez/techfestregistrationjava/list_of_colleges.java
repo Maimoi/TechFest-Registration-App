@@ -31,6 +31,7 @@ public class list_of_colleges extends AppCompatActivity {
         names.add("Delhi Technological University");
         names.add("Indian Institute of Technology Delhi");
         names.add("Maharaja Agrasen Institute of Technology");
+        names.add("Netaji Subhas University Institute of Technology");
 
          adapter= new ArrayAdapter<>(this,R.layout.list_item,names);
         l.setAdapter(adapter);
@@ -53,18 +54,19 @@ public class list_of_colleges extends AppCompatActivity {
         l.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent;
+                switch (position){
+                    case 0: intent=new Intent(getApplicationContext(),dtu.class);
+                            startActivity(intent);
 
-                if(position==0){
-                    Intent intent=new Intent(getApplicationContext(),dtu.class);
-                    startActivity(intent);
-                }
-                else if(position==1){
-                    Intent intent=new Intent(getApplicationContext(),iitd.class);
-                    startActivity(intent);
-                }
-                else if(position==2){
-                    Intent intent=new Intent(getApplicationContext(),mait.class);
-                    startActivity(intent);
+                    case 1: intent=new Intent(getApplicationContext(),iitd.class);
+                            startActivity(intent);
+
+                    case 2:intent=new Intent(getApplicationContext(),mait.class);
+                           startActivity(intent);
+
+                    case 3:intent=new Intent(getApplicationContext(),nsut.class);
+                           startActivity(intent);
                 }
             }
         });
