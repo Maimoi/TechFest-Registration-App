@@ -4,58 +4,98 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".custom_details_DTU">
+    tools:context=".custom_details_DTU"
+    android:background="@drawable/gradaf">
 
-    <EditText
-        android:id="@+id/name"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
-        android:layout_marginBottom="265dp"
-        android:ems="10"
-        android:hint="username"
-        android:inputType="textPersonName"
-
+        android:fontFamily="@font/roboto_black"
+        android:text="Upload your details here"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/uemail"
-        android:layout_width="match_parent"
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="272dp"
-        android:ems="10"
-        android:hint="email"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/college"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="352dp"
-        android:ems="10"
-        android:hint="college"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/Upload"
-        android:layout_width="213dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="79dp"
-        android:layout_marginBottom="169dp"
-        android:text="Upload"
+        android:orientation="vertical"
+        android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/search_rect"
+            android:backgroundTint="#000000"
+            android:ems="10"
+            android:hint="Enter your username"
+            android:inputType="textPersonName"
+            android:paddingVertical="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="#888888" />
+
+        <EditText
+            android:id="@+id/uemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/search_rect"
+            android:backgroundTint="#000000"
+            android:ems="10"
+            android:hint="Enter your email ID"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:paddingVertical="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="#888888" />
+
+        <EditText
+            android:id="@+id/college"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/search_rect"
+            android:backgroundTint="#000000"
+            android:ems="10"
+            android:hint="@string/search_clg"
+            android:inputType="textPersonName"
+            android:paddingVertical="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="#888888" />
+
+        <Button
+            android:id="@+id/Upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+
+            android:background="@drawable/rect_btn"
+            android:fontFamily="@font/roboto_black"
+            android:text="Upload"
+            android:paddingHorizontal="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/background_dark"
+            android:textAllCaps="true"/>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
