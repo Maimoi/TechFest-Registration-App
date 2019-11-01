@@ -29,7 +29,9 @@ public class custom_details_DTU extends AppCompatActivity {
         college=findViewById(R.id.college);
         upload=findViewById(R.id.Upload);
         firebaseDatabase=FirebaseDatabase.getInstance();
-        databaseReference=firebaseDatabase.getReference("Delhi Technological University");
+        Intent in=getIntent();
+        String a=in.getStringExtra("A");
+        databaseReference=firebaseDatabase.getReference(a);
 
 
 
