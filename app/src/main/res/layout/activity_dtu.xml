@@ -1,58 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/rl1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/gradaf">
 
     <ImageView
         android:id="@+id/iv1"
-        android:layout_width="200dp"
+        android:layout_width="150dp"
         android:padding="10dp"
-        android:layout_height="200dp"
+        android:layout_height="150dp"
         android:layout_gravity="center"
         android:contentDescription="@string/dtu_logo"
         app:srcCompat="@drawable/dtu" />
 
-    <Button
-        android:id="@+id/btn1"
-        android:layout_width="220dp"
-        android:layout_height="84dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="232dp"
-        android:layout_marginEnd="5dp"
-        android:text="Register" />
+    <LinearLayout
+        android:id="@+id/llv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
 
-    <Button
-        android:id="@+id/btn2"
-        android:layout_width="220dp"
-        android:layout_height="84dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="340dp"
-        android:layout_marginEnd="5dp"
-        android:text="Register" />
+        <LinearLayout
+            android:id="@+id/llh1a"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-    <TextView
-        android:id="@+id/tv1"
-        android:layout_width="136dp"
-        android:layout_height="69dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="243dp"
-        android:text="Blind coding" />
+            <TextView
+                android:id="@+id/tv1a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:textAlignment="center"
+                android:fontFamily="@font/roboto_black"
+                android:text="Blind Coding"
+                android:layout_gravity="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
-    <TextView
-        android:id="@+id/tv2"
-        android:layout_width="132dp"
-        android:layout_height="63dp"
-        android:layout_alignParentStart="true"
-        android:layout_centerVertical="true"
-        android:layout_marginStart="22dp"
-        android:text="Code In Less" />
+            <Button
+                android:id="@+id/btn1a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/search_rect"
+                android:backgroundTint="#000000"
+                android:fontFamily="@font/roboto_black"
+                android:layout_gravity="center"
+                android:text="@string/reg"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
 
+        <LinearLayout
+            android:id="@+id/llh1b"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-</RelativeLayout>
+            <TextView
+                android:id="@+id/tv1b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:fontFamily="@font/roboto_black"
+                android:text="Code In Less"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <Button
+                android:id="@+id/btn1b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/search_rect"
+                android:backgroundTint="#000000"
+                android:fontFamily="@font/roboto_black"
+                android:layout_gravity="center"
+                android:text="@string/reg"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
