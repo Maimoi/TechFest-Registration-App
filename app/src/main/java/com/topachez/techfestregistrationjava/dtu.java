@@ -14,8 +14,8 @@ public class dtu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dtu);
-        b1=findViewById(R.id.btn1);
-        b2=findViewById(R.id.btn2);
+        b1=findViewById(R.id.btn1a);
+        b2=findViewById(R.id.btn1b);
 
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
