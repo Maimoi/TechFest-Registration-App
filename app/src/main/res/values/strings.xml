@@ -11,4 +11,7 @@
     <string name="login">Login here as :</string>
     <string name="dtu_logo">DTU ka logo</string>
     <string name="reg">Register</string>
+    <string name="nsut_logo">NSUT ka logo</string>
+    <string name="mait_logo">MAIT ka logo</string>
+    <string name="iitd_logo">IIT ka logo</string>
 </resources>
