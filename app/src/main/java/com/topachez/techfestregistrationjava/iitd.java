@@ -18,7 +18,7 @@ public class iitd extends AppCompatActivity {
 
         tv=new TextView[7];
         tv[0]=findViewById(R.id.tv2a);
-        tv[1]=findViewById(R.id.tv2d);
+        tv[1]=findViewById(R.id.tv2b);
         tv[2]=findViewById(R.id.tv2c);
         tv[3]=findViewById(R.id.tv2d);
         tv[4]=findViewById(R.id.tv2e);
