@@ -58,15 +58,20 @@ public class list_of_colleges extends AppCompatActivity {
                 switch (position){
                     case 0: intent=new Intent(getApplicationContext(),dtu.class);
                             startActivity(intent);
+                            break;
 
                     case 1: intent=new Intent(getApplicationContext(),iitd.class);
                             startActivity(intent);
+                            break;
+
 
                     case 2:intent=new Intent(getApplicationContext(),mait.class);
                            startActivity(intent);
+                           break;
 
                     case 3:intent=new Intent(getApplicationContext(),nsut.class);
                            startActivity(intent);
+                           break;
                 }
             }
         });
