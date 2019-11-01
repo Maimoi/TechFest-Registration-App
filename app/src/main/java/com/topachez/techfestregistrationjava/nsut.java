@@ -6,13 +6,37 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class nsut extends AppCompatActivity {
     Button b1,b2,b3,b4,b5,b6,b7;
+    TextView[] tv;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nsut);
+
+        tv=new TextView[7];
+        tv[0]=findViewById(R.id.tv4a);
+        tv[1]=findViewById(R.id.tv4b);
+        tv[2]=findViewById(R.id.tv4c);
+        tv[3]=findViewById(R.id.tv4d);
+        tv[4]=findViewById(R.id.tv4e);
+        tv[5]=findViewById(R.id.tv4f);
+        tv[6]=findViewById(R.id.tv4g);
+        View.OnClickListener textClick = new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                TextView t= (TextView)view;
+                Intent intent= new Intent(getApplicationContext(),PopUp.class);
+                intent.putExtra("event_name",t.getText().toString());
+                startActivity(intent);
+            }
+        };
+        for(int i=0; i<7; i++)
+            tv[i].setOnClickListener(textClick);
+
+
         b1=findViewById(R.id.btn4a);
         b2=findViewById(R.id.btn4b);
         b3=findViewById(R.id.btn4c);
