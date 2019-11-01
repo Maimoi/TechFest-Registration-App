@@ -59,7 +59,7 @@ public class custom_details_DTU extends AppCompatActivity {
                 Student info=new Student(username,email1,college1);
                 Intent intent=getIntent();
                 String s=intent.getStringExtra("P");
-                databaseReference.child(s).setValue(info);
+                databaseReference.child(s).child(username).setValue(info);
                 Toast.makeText(getApplicationContext(), "Registration Successful!", Toast.LENGTH_SHORT).show();
 
             }
