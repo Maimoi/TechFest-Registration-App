@@ -9,11 +9,11 @@
     <string name="student_icon">student icon</string>
     <string name="admin">ADMIN</string>
     <string name="login">Login here as :</string>
-    <string name="dtu_logo">DTU ka logo</string>
+    <string name="dtu_logo">INVICTUS ka logo</string>
     <string name="reg">Register</string>
-    <string name="nsut_logo">NSUT ka logo</string>
+    <string name="nsut_logo">INNOVISION ka logo</string>
     <string name="mait_logo">MAIT ka logo</string>
-    <string name="iitd_logo">IIT ka logo</string>
+    <string name="iitd_logo">TRYST ka logo</string>
     <string name="desc">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non feugiat nisl. Duis molestie ac eros a efficitur. Ut eu enim non mauris dapibus semper at eget nisl. Phasellus ex ante, ultricies consectetur dapibus eu, sodales et dui. Sed ac nisi vel orci cursus dignissim in dictum lacus. Nam ultrices quis velit vel venenatis. Sed et auctor massa. Integer posuere euismod velit, non posuere risus finibus nec.
     \nIn eget ligula nec nisl feugiat pulvinar. Pellentesque suscipit lorem congue posuere hendrerit. Donec a nisi bibendum nibh euismod porta. Sed sollicitudin purus non nulla facilisis commodo. Quisque in urna id magna commodo efficitur. Maecenas eu tellus non nisl placerat volutpat. Morbi faucibus porta felis, vitae tristique augue fringilla id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris nec facilisis nisi, id congue arcu. Mauris pharetra lorem ipsum, ut pellentesque leo blandit non. Donec vitae ultricies libero, id placerat nibh.
@@ -39,20 +39,21 @@
     <string name="sr">
         It\'s not just a regular contest challenging your problem-solving skills. It\'s SWITCHEROO. It’s a contest testing your abilities to work as a team. The competition not only examines your skills as to how well you coordinate with your partner but also how analytical you are in an isolated and tensed situation.
     </string>
-    <string name="ar">
-        Algorama is an on-site algorithm design contest which requires knowledge of algorithm design, analysis and data structures. This is a chance for you to go head to head with some of the best algorithmic brains of the country and win exciting prizes by proving your algorithmic prowess.
+    <string name="bf">
+Implementation is overrated. In this contest, let logic take the front seat.
+        \n\nBrainFuzz is an on-site algorithm design contest which requires knowledge of algorithm design, analysis and data structures. This is a chance for you to go head to head with some of the best algorithmic brains of the country and win exciting prizes by proving your algorithmic prowess.
     </string>
-    <string name="eg">
-        The event Euler Games invites maths and computer science enthusiasts to participate in “The Euler’s Islands” - a fusion of Euler Games questions and Forbidden Island(Board Game).
+    <string name="pe">
+        The event Project Euler invites maths and computer science enthusiasts to participate in “The Euler’s Islands” - a fusion of Project Euler questions and Forbidden Island(Board Game).
         \n\nFind effective solutions of some interesting problems and win the game. The Game is setup on the islands. The islands will be based on math concepts that appear frequently in project Euler problems, say prime island for prime no. based questions.
         \n\nTo attempt the maximum no. of question from a certain island the team of 1 to 3 people will have to make decisions that ensures that the island does not sink. Team with max points wins. For a particular team questions end either when the time is up or when all islands sink.
         \n\nThe problems difficulty level increases gradually so teams have to use Maths and Computer Science skills together to trace the distance.
     </string>
-    <string name="cr">
-        A fun event where participants have to solve given problems in minimum possible time. Marking will be on the basis of no. of test cases passed and running time of the program.
+    <string name="scr">
+Scripting Challenge is an online event which organised in Esya, techfest of IIIT-D. This event is where some of the enthusiastic coders compete against each other to solve some challenges. These challenges will test your basic and advanced coding skills.
     </string>
-    <string name="iiitd_logo">IIITD ka logo</string>
-    <string name="igdtuw_logo">IGDTUW ka logo</string>
+    <string name="iiitd_logo">ESYA ka logo</string>
+    <string name="igdtuw_logo">INNERVE ka logo</string>
     <string name="bytes">
         Imagine being in a whole new world. Everything about the people here is different, the language they speak, the way they walk, even how they greet. The only thing you know you can rely on is your logic and ability to adapt. That\'s exactly the situation we\'re gonna put you in Bytes.
         \nYou will be given a random, but less known programming language and a set of questions. You will have to solve them onsite and on time!

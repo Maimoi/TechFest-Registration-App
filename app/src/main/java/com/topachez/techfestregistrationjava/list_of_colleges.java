@@ -30,9 +30,9 @@ public class list_of_colleges extends AppCompatActivity {
         ArrayList<String> names= new ArrayList<>();
         names.add("Delhi Technological University");
         names.add("Indian Institute of Technology Delhi");
-        names.add("Maharaja Agrasen Institute of Technology");
-        names.add("Netaji Subhas University of Technology");
         names.add("Indraprastha Institute of Information Technology Delhi");
+        names.add("Netaji Subhas University of Technology");
+        names.add("Maharaja Agrasen Institute of Technology");
         names.add("Indira Gandhi Delhi Technical University for Women");
         names.add("University School of Information, Communication and Technology");
         names.add("National Institute of Technology Delhi");
@@ -76,14 +76,14 @@ public class list_of_colleges extends AppCompatActivity {
                             break;
 
 
-                    case 2:intent=new Intent(getApplicationContext(),mait.class);
+                    case 2:intent=new Intent(getApplicationContext(),iiitd.class);
                            startActivity(intent);
                            break;
 
                     case 3:intent=new Intent(getApplicationContext(),nsut.class);
                            startActivity(intent);
                            break;
-                    case 4:intent=new Intent(getApplicationContext(),iiitd.class);
+                    case 4:intent=new Intent(getApplicationContext(),mait.class);
                         startActivity(intent);
                         break;
                     case 5:intent=new Intent(getApplicationContext(),igdtuw.class);

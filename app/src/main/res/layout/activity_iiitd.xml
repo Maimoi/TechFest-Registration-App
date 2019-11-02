@@ -24,17 +24,16 @@
         android:background="@drawable/rect_btn"
         android:fontFamily="@font/roboto_black"
         android:textSize="20dp"
-        android:layout_marginTop="25dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:text="LIST OF EVENTS" />
+        android:text="ESYA: LIST OF EVENTS" />
 
     <LinearLayout
         android:id="@+id/llv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="10dp"
         android:padding="10dp">
 
         <LinearLayout
@@ -113,7 +112,7 @@
                 android:layout_gravity="center"
                 android:layout_weight="0.5"
                 android:fontFamily="@font/roboto_black"
-                android:text="Code Rash"
+                android:text="Scripting Challenge"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
@@ -173,7 +172,7 @@
                 android:layout_gravity="center"
                 android:layout_weight="0.5"
                 android:fontFamily="@font/roboto_black"
-                android:text="Euler Games"
+                android:text="Project Euler"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
@@ -233,7 +232,7 @@
                 android:layout_gravity="center"
                 android:layout_weight="0.5"
                 android:fontFamily="@font/roboto_black"
-                android:text="Algorama"
+                android:text="BrainFuzz"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 

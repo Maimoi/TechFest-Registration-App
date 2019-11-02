@@ -71,7 +71,7 @@ public class iiitd extends AppCompatActivity {
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String s="Code Rash";
+                String s="Scripting Challenge";
 
                 Intent inti=new Intent(getApplicationContext(),custom_details_DTU.class);
                 String a="Indraprastha Institute of Information Technology Delhi";
@@ -95,7 +95,7 @@ public class iiitd extends AppCompatActivity {
         b5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String s="Euler Games";
+                String s="Project Euler";
 
                 Intent inti=new Intent(getApplicationContext(),custom_details_DTU.class);
                 String a="Indraprastha Institute of Information Technology Delhi";
@@ -119,7 +119,7 @@ public class iiitd extends AppCompatActivity {
         b7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String s="Algorama";
+                String s="BrainFuzz";
 
                 Intent inti=new Intent(getApplicationContext(),custom_details_DTU.class);
                 String a="Indraprastha Institute of Information Technology Delhi";
