@@ -32,8 +32,19 @@ public class list_of_colleges extends AppCompatActivity {
         names.add("Indian Institute of Technology Delhi");
         names.add("Maharaja Agrasen Institute of Technology");
         names.add("Netaji Subhas University of Technology");
+        names.add("Indraprastha Institute of Information Technology Delhi");
+        names.add("Indira Gandhi Delhi Technical University for Women");
+        names.add("University School of Information, Communication and Technology");
+        names.add("National Institute of Technology Delhi");
+        names.add("Maharaja Surajmal Institute of Technology");
+        names.add("Bharati Vidyapeeth's College of Engineering");
+        names.add("Bhagwan Parshuram Institute of Technology");
+        names.add("Jamia Milia Islamia");
+        names.add("GB Pant Government Engineering College");
+        names.add("Sharda University");
+        names.add("Amity University");
 
-         adapter= new ArrayAdapter<>(this,R.layout.list_item,names);
+        adapter= new ArrayAdapter<>(this,R.layout.list_item,names);
         l.setAdapter(adapter);
         et.addTextChangedListener(new TextWatcher() {
             @Override
@@ -72,6 +83,12 @@ public class list_of_colleges extends AppCompatActivity {
                     case 3:intent=new Intent(getApplicationContext(),nsut.class);
                            startActivity(intent);
                            break;
+                    case 4:intent=new Intent(getApplicationContext(),iiitd.class);
+                        startActivity(intent);
+                        break;
+                    case 5:intent=new Intent(getApplicationContext(),igdtuw.class);
+                        startActivity(intent);
+                        break;
                 }
             }
         });

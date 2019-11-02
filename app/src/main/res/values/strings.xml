@@ -51,4 +51,85 @@
     <string name="cr">
         A fun event where participants have to solve given problems in minimum possible time. Marking will be on the basis of no. of test cases passed and running time of the program.
     </string>
+    <string name="iiitd_logo">IIITD ka logo</string>
+    <string name="igdtuw_logo">IGDTUW ka logo</string>
+    <string name="bytes">
+        Imagine being in a whole new world. Everything about the people here is different, the language they speak, the way they walk, even how they greet. The only thing you know you can rely on is your logic and ability to adapt. That\'s exactly the situation we\'re gonna put you in Bytes.
+        \nYou will be given a random, but less known programming language and a set of questions. You will have to solve them onsite and on time!
+        \nCash prize of 10,000 up for grabs!
+        \n\nDate: 9th February, 2020
+        \nTime: 12 -2p.m.
+        \nVenue: SPS-14
+        \nTeam Size: 1
+    </string>
+    <string name="sc">
+        Are you a sudoku champ?
+\nAre you a pro coder?
+\nWe give you the opportunity to be both!!
+        \nInvictus , the annual Technological fest of DTU brings you Sudo code, an innovative game to baffle your minds and proclaim yourself as The Ultimate Sudoku Champ!
+
+\n\nPrelims :  8th Feb \'20
+\nFinals   :  9th Feb \'20
+        \nTimings :  12 -2p.m.
+\nVenue   :  TW1GF1
+    </string>
+    <string name="pd">If you are the Ross to a Rachel,  sharing the iconicness of SpongeBob and Patrick,  adventuring hand in hand like Sherlock and Watson  and partnering like Veeres, Invictus\'20 bring \'Programmer\'s DATE\' for unlocking yet another achievement with your other half.
+        \nThis compatibility check trespasses the limits of mind reading, guessworks and mutual understanding by raising the bar to consistent coding dually. It is an ultimate coding challenge where two team members will be seated in different rooms and given separate coding questions. The members will switch PCs after regular intervals and continue with the other person\'s code. No communication between the members is allowed during the competition. Both the members will be coding on different platforms. One person will code on Beatest and the other on Hackerrank. It is not only switching of codes, but platforms as well.
+        \n\nAlso, Extra points will be provided if they answer some questions about each other correctly during the event. So make sure you know your partner well!
+        \n\nImportant: It is not necessary to team up with the opposite gender, guys and girls you can participate with your friends too.
+        \n\nDate: 8th February, 2020
+        \nTime: 10a.m.-1p.m.
+        \nVenue: SPS-14
+        \nTeam Size: 2
+    </string>
+    <string name="cg">
+        <i>Size matters!</i>
+        \n\nDoes the idea  “The more, the better” fascinate you??
+\nWell if so, you might reconsider your thoughts!
+\nBecause Invictus 2020, the annual Technological fest of DTU brings  CodeGolf, an online programming contest where the shortest code is the winner.
+
+\nSo lessen your code and prepare algorithms and be ready for CodeGolf!
+        \n\nDate: 9th February, 2020
+        \nTime: 11a.m.-1p.m.
+        \nVenue: Computer Networking Lab
+        \nTeam Size: 1-2
+    </string>
+    <string name="inf">
+        Are you a Coding Guru or a Maths Geek?
+        \nOr maybe both?
+        \n\nSociety of Software Engineering - Delhi Technological University, in partnership with Samsung, GeeksforGeeks and Coding Ninjas, presents INFINITY, an exhilarating contest which tests your ability to solve mathematical problems with the power of programming.
+        \n\nTop 10-20 contestants from the online round will get the chance to face off in the onsite round. Get your boots on for this unique challenge, because prizes worth ₹4,000 are up for grabs!
+
+\n\nOnline Round
+\n7:00 PM - 9:00 PM
+\n7th February 2020
+\nCoding Ninjas Platform
+
+\n\nOnsite Round
+\n12:00 PM - 2:00 PM
+\n9th February 2020
+\nDBMS Lab, DTU
+    </string>
+    <string name="ct">
+        <i> Code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live</i> ~ John Woods
+        \n\nMACS-DTU and INNOVA in association with INVICTUS \'20 presents Codethon, a platform where all Competitive coding geeks will encounter umpteen programming problems in a competitive zone.
+        \nWhat are you waiting for?
+\nThis is the apt opportunity to display your eloquence for coding and, unleash the coder inside you.
+\nSo prepare yourself for the clash of the coders!!
+        \n\nMay the best coder win this battle!!
+        \n\nRounds: Prelims and Finals
+\n\nDate: 9th February
+        \nTime: 12:00p.m. onwards
+\nVenue: Computational Lab
+\nTeam size: 1-3
+\nPrizes worth: 10,000 INR
+    </string>
+    <string name="cn">
+        Can\'t you C yourself without C++?
+\nThen you\'re here at the right place! CSI-DTU, in association with Invictus, the annual Technological fest of DTU brings you the much awaited programming quiz, Cranium, to set your nerves wracking and pens scribbling.
+        \n\nRounds: Prelims and Finals
+\n\nDate: 8th(Prelims) and 9th(Finals) February 2020
+        \nTime: 14:00 -16:00p.m.
+\nVenue: Computational Lab
+    </string>
 </resources>

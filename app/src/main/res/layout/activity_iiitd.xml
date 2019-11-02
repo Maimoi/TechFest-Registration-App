@@ -1,60 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/rl1"
+    android:id="@+id/rl"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradaf"
     android:orientation="vertical">
 
     <ImageView
-        android:id="@+id/iv1"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:id="@+id/iv"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_gravity="center"
-        android:contentDescription="@string/dtu_logo"
-        app:srcCompat="@drawable/dtu" />
+        android:contentDescription="@string/iiitd_logo"
+        android:padding="10dp"
+        app:srcCompat="@drawable/iiitd" />
 
     <Button
-        android:id="@+id/leb1"
+        android:id="@+id/leb"
         android:layout_gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/rect_btn"
         android:fontFamily="@font/roboto_black"
         android:textSize="20dp"
+        android:layout_marginTop="25dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:text="LIST OF EVENTS" />
 
     <LinearLayout
-        android:id="@+id/llv1"
+        android:id="@+id/llv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:padding="10dp"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="25dp"
+        android:padding="10dp">
 
         <LinearLayout
-            android:id="@+id/llh1a"
+            android:id="@+id/llha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:padding="5dp">
 
             <TextView
-                android:id="@+id/tv1a"
+                android:id="@+id/tva"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="0.5"
                 android:fontFamily="@font/roboto_black"
-                android:text="Bytes"
+                android:text="Blind Coding"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
             <Button
-                android:id="@+id/btn1a"
+                android:id="@+id/btna"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -67,25 +69,25 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/llh1b"
+            android:id="@+id/llhb"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:padding="5dp">
 
             <TextView
-                android:id="@+id/tv1b"
+                android:id="@+id/tvb"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="0.5"
                 android:fontFamily="@font/roboto_black"
-                android:text="SudoCode"
+                android:text="Code In Less"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
             <Button
-                android:id="@+id/btn1b"
+                android:id="@+id/btnb"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -98,25 +100,25 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/llh1c"
+            android:id="@+id/llhc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:padding="5dp">
 
             <TextView
-                android:id="@+id/tv1c"
+                android:id="@+id/tvc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="0.5"
                 android:fontFamily="@font/roboto_black"
-                android:text="Programmer's DATE"
+                android:text="Code Rash"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
             <Button
-                android:id="@+id/btn1c"
+                android:id="@+id/btnc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -128,25 +130,25 @@
                 android:textColor="@android:color/background_light" />
         </LinearLayout>
         <LinearLayout
-            android:id="@+id/llh1d"
+            android:id="@+id/llhd"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:padding="5dp">
 
             <TextView
-                android:id="@+id/tv1d"
+                android:id="@+id/tvd"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="0.5"
                 android:fontFamily="@font/roboto_black"
-                android:text="Code Golf"
+                android:text="Switcheroo"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
             <Button
-                android:id="@+id/btn1d"
+                android:id="@+id/btnd"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -158,25 +160,25 @@
                 android:textColor="@android:color/background_light" />
         </LinearLayout>
         <LinearLayout
-            android:id="@+id/llh1e"
+            android:id="@+id/llhe"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:padding="5dp">
 
             <TextView
-                android:id="@+id/tv1e"
+                android:id="@+id/tve"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="0.5"
                 android:fontFamily="@font/roboto_black"
-                android:text="Infinity"
+                android:text="Euler Games"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
             <Button
-                android:id="@+id/btn1e"
+                android:id="@+id/btne"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -188,25 +190,25 @@
                 android:textColor="@android:color/background_light" />
         </LinearLayout>
         <LinearLayout
-            android:id="@+id/llh1f"
+            android:id="@+id/llhf"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:padding="5dp">
 
             <TextView
-                android:id="@+id/tv1f"
+                android:id="@+id/tvf"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="0.5"
                 android:fontFamily="@font/roboto_black"
-                android:text="Codethon"
+                android:text="Segfault"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
             <Button
-                android:id="@+id/btn1f"
+                android:id="@+id/btnf"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -218,25 +220,25 @@
                 android:textColor="@android:color/background_light" />
         </LinearLayout>
         <LinearLayout
-            android:id="@+id/llh1g"
+            android:id="@+id/llhg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:padding="5dp">
 
             <TextView
-                android:id="@+id/tv1g"
+                android:id="@+id/tvg"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="0.5"
                 android:fontFamily="@font/roboto_black"
-                android:text="Cranium"
+                android:text="Algorama"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
             <Button
-                android:id="@+id/btn1g"
+                android:id="@+id/btng"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"

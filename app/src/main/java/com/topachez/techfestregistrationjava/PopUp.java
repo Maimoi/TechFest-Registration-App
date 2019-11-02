@@ -40,8 +40,23 @@ public class PopUp extends AppCompatActivity {
             t2.setText(R.string.cr);
         else if(str.equals("Euler Games"))
             t2.setText(R.string.eg);
-        else
-            t2.setText(R.string.desc);
-
+        else if(str.equals("Bytes"))
+            t2.setText(R.string.bytes);
+        else if(str.equals("SudoCode"))
+            t2.setText(R.string.sc);
+        else if(str.equals("Programmer's DATE"))
+            t2.setText(R.string.pd);
+        else if(str.equals("Code Golf"))
+            t2.setText(R.string.cg);
+        else if(str.equals("Infinity"))
+            t2.setText(R.string.inf);
+        else if(str.equals("Codethon"))
+            t2.setText(R.string.ct);
+        else if(str.equals("Cranium"))
+            t2.setText(R.string.cn);
+        else if(str.equals(""))
+            t2.setText(R.string.pd);
+        else if(str.equals(""))
+            t2.setText(R.string.pd);
     }
 }
