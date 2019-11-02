@@ -37,6 +37,7 @@
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/allerta"
                 android:padding="10dp"
+                android:textAlignment="center"
                 android:text="Description"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/colorPrimaryDark" />
