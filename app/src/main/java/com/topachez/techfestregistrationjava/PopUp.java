@@ -54,9 +54,8 @@ public class PopUp extends AppCompatActivity {
             t2.setText(R.string.ct);
         else if(str.equals("Cranium"))
             t2.setText(R.string.cn);
-        else if(str.equals(""))
-            t2.setText(R.string.pd);
-        else if(str.equals(""))
-            t2.setText(R.string.pd);
+        else
+            t2.setText(R.string.desc);
+
     }
 }
