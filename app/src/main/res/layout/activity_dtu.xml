@@ -62,7 +62,7 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:background="@drawable/search_rect"
-                android:backgroundTint="#000000"
+                android:backgroundTint="@color/colorPrimary"
                 android:fontFamily="@font/roboto_black"
                 android:text="@string/reg"
                 android:textColor="@android:color/background_light" />
@@ -93,7 +93,7 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:background="@drawable/search_rect"
-                android:backgroundTint="#000000"
+                android:backgroundTint="@color/colorPrimary"
                 android:fontFamily="@font/roboto_black"
                 android:text="@string/reg"
                 android:textColor="@android:color/background_light" />
@@ -124,7 +124,7 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:background="@drawable/search_rect"
-                android:backgroundTint="#000000"
+                android:backgroundTint="@color/colorPrimary"
                 android:fontFamily="@font/roboto_black"
                 android:text="@string/reg"
                 android:textColor="@android:color/background_light" />
@@ -154,7 +154,7 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:background="@drawable/search_rect"
-                android:backgroundTint="#000000"
+                android:backgroundTint="@color/colorPrimary"
                 android:fontFamily="@font/roboto_black"
                 android:text="@string/reg"
                 android:textColor="@android:color/background_light" />
@@ -184,7 +184,7 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:background="@drawable/search_rect"
-                android:backgroundTint="#000000"
+                android:backgroundTint="@color/colorPrimary"
                 android:fontFamily="@font/roboto_black"
                 android:text="@string/reg"
                 android:textColor="@android:color/background_light" />
@@ -214,7 +214,7 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:background="@drawable/search_rect"
-                android:backgroundTint="#000000"
+                android:backgroundTint="@color/colorPrimary"
                 android:fontFamily="@font/roboto_black"
                 android:text="@string/reg"
                 android:textColor="@android:color/background_light" />
@@ -244,7 +244,7 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:background="@drawable/search_rect"
-                android:backgroundTint="#000000"
+                android:backgroundTint="@color/colorPrimary"
                 android:fontFamily="@font/roboto_black"
                 android:text="@string/reg"
                 android:textColor="@android:color/background_light" />

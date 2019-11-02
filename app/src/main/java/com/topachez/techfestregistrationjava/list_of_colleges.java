@@ -31,7 +31,7 @@ public class list_of_colleges extends AppCompatActivity {
         names.add("Delhi Technological University");
         names.add("Indian Institute of Technology Delhi");
         names.add("Maharaja Agrasen Institute of Technology");
-        names.add("Netaji Subhas University Institute of Technology");
+        names.add("Netaji Subhas University of Technology");
 
          adapter= new ArrayAdapter<>(this,R.layout.list_item,names);
         l.setAdapter(adapter);
