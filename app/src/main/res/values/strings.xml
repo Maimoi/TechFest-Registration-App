@@ -15,6 +15,40 @@
     <string name="mait_logo">MAIT ka logo</string>
     <string name="iitd_logo">IIT ka logo</string>
     <string name="desc">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non feugiat nisl. Duis molestie ac eros a efficitur. Ut eu enim non mauris dapibus semper at eget nisl. Phasellus ex ante, ultricies consectetur dapibus eu, sodales et dui. Sed ac nisi vel orci cursus dignissim in dictum lacus. Nam ultrices quis velit vel venenatis. Sed et auctor massa. Integer posuere euismod velit, non posuere risus finibus nec.
+    \nIn eget ligula nec nisl feugiat pulvinar. Pellentesque suscipit lorem congue posuere hendrerit. Donec a nisi bibendum nibh euismod porta. Sed sollicitudin purus non nulla facilisis commodo. Quisque in urna id magna commodo efficitur. Maecenas eu tellus non nisl placerat volutpat. Morbi faucibus porta felis, vitae tristique augue fringilla id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris nec facilisis nisi, id congue arcu. Mauris pharetra lorem ipsum, ut pellentesque leo blandit non. Donec vitae ultricies libero, id placerat nibh.
+    \nMaecenas pulvinar cursus enim, vel dapibus magna auctor at. Mauris nisi turpis, malesuada at laoreet vitae, posuere sit amet risus. In commodo eget nunc non rutrum. Morbi quis pulvinar velit. Pellentesque egestas sollicitudin quam viverra aliquet. Fusce vitae risus non ante posuere fermentum at a justo. Donec vitae rhoncus justo. Duis ultrices bibendum diam, ac efficitur leo mattis at. Sed imperdiet enim risus, quis varius odio tincidunt vitae. Nam mollis nisi vel tempor rhoncus. Vestibulum eget nunc neque. Fusce egestas ultricies enim, eget iaculis odio. Cras sit amet risus tortor. Etiam ut posuere orci.
+    </string>
+    <string name="bc">
+    It is a fresh and offbeat concept - where the participants need to write and compile their program with the monitor screens switched off. The event will span over 2 hours.
+    The details are as follows:\n\n\nThe participants will be given 3 problems of varying difficulty levels.
+    \n\nThe first problem will be a warm up question. The participants will be provided a syntactically incorrect code written on paper. The participants will be required to identify the errors and type other two questions will be problem statements based on basic programming concepts.
+    \n\nEach team will be allowed one free “Screen time” (where the monitor screen can be turned on for 60 seconds), after which they will be penalised with 3 points for each extra screen time.
+    \n\nEach team can avail a maximum of 5 screen times.
+    \n\nAt a time only 5 teams will be allowed to avail the facility of Screen Time, the slots for which will be allotted on a first come first serve basis.
+    </string>
+    <string name="cil">
+        Code in Less is an onsite competitive programming contest where the participants don’t just need to solve the problems but write their code using the minimum number of characters. Solve the problems, optimize your code and shorten it. The shortest solution wins it all!
+        n\nLesser, Faster, Better
+    </string>
+    <string name="sf">
+        Do you think you have what it takes to be a great coder? You know a language in and out? This time it is not only about getting the logic and algorithms right but also to code it correct knowing the ifs and buts of the programming language.
+        \n\nSo make teams of two and be here to prove your skills. Teams can be cross-school and cross-college. Lone wolves are also allowed. First round will be pen-paper based and you have to opt in either for C++ or Java. Second round will be computer based and in Python3. You will be allowed to interpret the code only twice during the whole round. No IDE or internet connection will be provided. Minimum time and least number of changes will be the criteria for judging along with the fully functional code.
+        \n\nNow get ready to start debugging and brag by finding the bugs hiding in the covers of the seemingly well-knit code.
+    </string>
+    <string name="sr">
+        It\'s not just a regular contest challenging your problem-solving skills. It\'s SWITCHEROO. It’s a contest testing your abilities to work as a team. The competition not only examines your skills as to how well you coordinate with your partner but also how analytical you are in an isolated and tensed situation.
+    </string>
+    <string name="ar">
+        Algorama is an on-site algorithm design contest which requires knowledge of algorithm design, analysis and data structures. This is a chance for you to go head to head with some of the best algorithmic brains of the country and win exciting prizes by proving your algorithmic prowess.
+    </string>
+    <string name="eg">
+        The event Euler Games invites maths and computer science enthusiasts to participate in “The Euler’s Islands” - a fusion of Euler Games questions and Forbidden Island(Board Game).
+        \n\nFind effective solutions of some interesting problems and win the game. The Game is setup on the islands. The islands will be based on math concepts that appear frequently in project Euler problems, say prime island for prime no. based questions.
+        \n\nTo attempt the maximum no. of question from a certain island the team of 1 to 3 people will have to make decisions that ensures that the island does not sink. Team with max points wins. For a particular team questions end either when the time is up or when all islands sink.
+        \n\nThe problems difficulty level increases gradually so teams have to use Maths and Computer Science skills together to trace the distance.
+    </string>
+    <string name="cr">
+        A fun event where participants have to solve given problems in minimum possible time. Marking will be on the basis of no. of test cases passed and running time of the program.
     </string>
 </resources>

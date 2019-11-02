@@ -25,7 +25,23 @@ public class PopUp extends AppCompatActivity {
         str=intent.getExtras().getString("event_name");
         TextView t1= findViewById(R.id.tvp1);
         TextView t2=findViewById(R.id.tvp2);
-        t2.setText(R.string.desc);
         t1.setText(str);
+        if(str.equals("Blind Coding"))
+            t2.setText(R.string.bc);
+        else if(str.equals("Code In Less"))
+            t2.setText(R.string.cil);
+        else if(str.equals("Segfault"))
+            t2.setText(R.string.sf);
+        else if(str.equals("Switcheroo"))
+            t2.setText(R.string.sr);
+        else if(str.equals("Algorama"))
+            t2.setText(R.string.ar);
+        else if(str.equals("Code Rash"))
+            t2.setText(R.string.cr);
+        else if(str.equals("Euler Games"))
+            t2.setText(R.string.eg);
+        else
+            t2.setText(R.string.desc);
+
     }
 }
