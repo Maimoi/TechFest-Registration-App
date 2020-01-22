@@ -26,7 +26,8 @@ public class MainActivity extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"App still in development stage!" , Toast.LENGTH_LONG).show();
+                Intent in=new Intent(getApplicationContext(),adminlogin.class);
+                startActivity(in);
             }
         });
     }
